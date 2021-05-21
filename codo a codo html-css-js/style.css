@@ -1,0 +1,216 @@
+.text-muted, .blockquote-footer {
+font-family: 'Italianno', cursive;
+}
+
+h1, h2, h3, h5, h6 {
+font-family: 'Oswald', sans-serif;
+}
+
+.col, .col-sm {
+    text-align: center;
+
+}
+
+p {
+	font-family: 'Helvetica Neue', 'Arial', 'Noto Sans', sans-serif;
+}
+
+.form-group {
+	background-color:transparent ;
+margin-left: 30px;
+
+ 
+
+
+}
+.container2 {
+	background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url('16.jpg');
+margin-left: auto;
+margin-right: -0.9%;
+
+}
+
+.text-nowrap {
+	color: white;
+}
+
+.header .navbar {
+  background: url('6.jpeg'), no-repeat center;
+  background-size: cover;
+  position: absolute;
+  background-color:rgba(192,192,192,0.3);
+  color: red;
+}
+
+#texto_p {
+	
+  position: relative;
+  top: -200px;
+}
+
+h1 {
+	font-size: 350%;
+	color: white;
+}
+
+#subtitulo {
+	font-family: 'Oswald', sans-serif;
+}
+
+
+/* borde1 imagen */
+
+
+#borde1 {
+  border-radius: 90% 10% 49% 51% / 55% 70% 30% 45%;
+
+  /* borde */
+  width: 400px;
+  height: 400px;
+  background: #ad5389;
+  background: -webkit-linear-gradient(to right,
+      #3c1053,
+      #ad5389);
+  background: linear-gradient(to right,
+      #3c1053,
+      #ad5389);
+}
+
+/* fin borde1 imagen */
+
+/* inicio de */
+#borde2 {
+  border-radius: 100% 0% 30% 70% / 100% 70% 30% 0%;
+
+  /* borde 2 */
+  width: 400px;
+  height: 400px;
+  background: #ad5389;
+  background: -webkit-linear-gradient(to right,
+      #3c1053,
+      #ad5389);
+  background: linear-gradient(to right,
+      #3c1053,
+      #ad5389);
+}
+
+
+#borde3 {
+  border-radius: 90% 10% 49% 51% / 55% 70% 30% 45%;
+
+  /* borde 3 */
+  width: 400px;
+  height: 400px;
+  background: #ad5389;
+  background: -webkit-linear-gradient(to right,
+      #3c1053,
+      #ad5389);
+  background: linear-gradient(to right,
+      #3c1053,
+      #ad5389);
+}
+  /* boton form */
+.mt-2 {
+	background: #5D4037;
+	color: white;
+}
+
+.btn .btn-light-blue .waves-effect .waves-light {
+	background: #5D4037;
+	color: white;
+}
+
+  /* opacar carrusel */
+
+#image, #image2, #image3 {
+  background-color: rgba(0,0,0,0.8);
+  filter:brightness(0.4);
+}
+
+ /* Scroll Back To Top Button */
+
+ #myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #7e5a4e;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #b49880;
+}
+
+ /* fin Scroll Back To Top Button */
+ 
+ /* menu logo  */
+
+
+@media screen and (min-width: 991px) and (max-width: 250px) {
+  #my-content { display: block; }
+  /* show it on small screens */
+}
+
+@media screen and (min-width: 992px) and (max-width:  1920px) {
+  #my-content { display: none; }   /* hide it elsewhere */
+}
+
+/* fin logo menu responsive */
+
+/* bajar h1 */
+
+@media screen and (min-width: 300px) and (max-width: 991px) {
+  #texto_p {  
+  position: absolute;
+  top: 70px;
+  display: flex;
+  justify-content: center; } 
+  } 
+  /* show it on small screens */
+
+
+@media screen and (min-width: 992px) and (max-width:  1440px) {
+  #texto_p { display: block; 
+  position: absolute;
+  top: 350px;
+  right: 100px;
+}
+}
+
+/* fin bajar h1 */
+
+/* boton whatsapp */
+@media screen and (min-width: 300px) and (max-width:  1920px) {
+.whatsapp {
+  position:fixed;
+  width:130px;
+  height:50px;
+  bottom:40px;
+  left:40px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:20px;
+  z-index:100;
+
+  
+}
+
+.whatsapp-icon {
+  margin-top:13px;
+}
+#textow:hover {
+  color: #f6f1eb;
+}
+}
+
+/* fin  boton whatsapp */
